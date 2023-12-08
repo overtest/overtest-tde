@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace>Sirkadirov.Overtest.Apps.TDE</RootNamespace>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GirCore.Adw-1" Version="0.5.0-preview.3" />
+      <PackageReference Include="Sirkadirov.Overtest.Common.TaskModels" Version="0.1.0" />
+    </ItemGroup>
+
+</Project>
